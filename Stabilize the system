@@ -1,0 +1,12 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        String result = String.valueOf(a).replace('0', '5');
+        int res = Integer.parseInt(result);
+        System.out.println(res);
+    }
+}
